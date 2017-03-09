@@ -37,6 +37,7 @@ function draw() {
     }
     if ((key == 'a') || (key == 'A')) {
       osc = new p5.SawOsc();
+    }
   }
 
   if(mouseIsPressed) {
@@ -62,7 +63,6 @@ function draw() {
     osc.amp(volume);
     envelope.play(osc); 
   }
-
 }
   
 
